@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33712.159
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Pin2Travel.Frontend", "01 Pin2Travel.Frontend", "{FA63CACD-307E-4883-8995-4AD4C78C5956}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Pin2Travel.Backend", "02 Pin2Travel.Backend", "{E70F7D76-5F0A-4832-9101-A03A8E4EDDF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pin2Travel.Frontend", "Pin2Travel.Frontend\Pin2Travel.Frontend.csproj", "{76675075-570F-4114-8094-BAB90CE703DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pin2Travel.Backend", "Pin2Travel.Backend\Pin2Travel.Backend.csproj", "{87CA79AE-B69B-4D91-A587-CC94BA8D9BF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 BusinessLogic", "03 BusinessLogic", "{52480374-2C69-4EEF-AF8D-BB6CF5C424F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pin2Travel.Business.Share", "Pin2Travel.Business.Share\Pin2Travel.Business.Share.csproj", "{A2D64430-06CB-49CB-B40F-608EE26E59EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 Infrastructure", "04 Infrastructure", "{E1B15F4D-BDF6-4CCB-ABAC-28226649189D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pin2Travel.Entity", "Pin2Travel.Entity\Pin2Travel.Entity.csproj", "{91426DCA-A0F8-4631-BBAE-F19C94C04473}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76675075-570F-4114-8094-BAB90CE703DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76675075-570F-4114-8094-BAB90CE703DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76675075-570F-4114-8094-BAB90CE703DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76675075-570F-4114-8094-BAB90CE703DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87CA79AE-B69B-4D91-A587-CC94BA8D9BF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87CA79AE-B69B-4D91-A587-CC94BA8D9BF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87CA79AE-B69B-4D91-A587-CC94BA8D9BF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87CA79AE-B69B-4D91-A587-CC94BA8D9BF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2D64430-06CB-49CB-B40F-608EE26E59EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2D64430-06CB-49CB-B40F-608EE26E59EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2D64430-06CB-49CB-B40F-608EE26E59EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2D64430-06CB-49CB-B40F-608EE26E59EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91426DCA-A0F8-4631-BBAE-F19C94C04473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91426DCA-A0F8-4631-BBAE-F19C94C04473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91426DCA-A0F8-4631-BBAE-F19C94C04473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91426DCA-A0F8-4631-BBAE-F19C94C04473}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{76675075-570F-4114-8094-BAB90CE703DF} = {FA63CACD-307E-4883-8995-4AD4C78C5956}
+		{87CA79AE-B69B-4D91-A587-CC94BA8D9BF1} = {E70F7D76-5F0A-4832-9101-A03A8E4EDDF9}
+		{A2D64430-06CB-49CB-B40F-608EE26E59EB} = {52480374-2C69-4EEF-AF8D-BB6CF5C424F0}
+		{91426DCA-A0F8-4631-BBAE-F19C94C04473} = {E1B15F4D-BDF6-4CCB-ABAC-28226649189D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65387678-B338-47AE-A1FD-8431D3B354DC}
+	EndGlobalSection
+EndGlobal
